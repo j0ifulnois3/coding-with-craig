@@ -1,21 +1,16 @@
 package com.pluralsight;
 
-public class ArraywithInts {
+public class ForEachLoop {
     public static void main(String[] args) {
+
+//        Basic Syntax: for ( data type your elementname : arrayName) {code}
 
         int[] numbers ={23,14,3,7};
 
         System.out.println(numbers[3]);
 
-
-//        My Code:
-        for(int index = 0; index < numbers.length; index++) {
-            int number = numbers[index];
+        for (int number:numbers){
             System.out.println(number);
-        }
-
-
-
         }
 
 
@@ -54,11 +49,4 @@ public class ArraywithInts {
 
 
 
-
-
-
-
-
-
-
-
+}
