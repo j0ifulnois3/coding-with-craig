@@ -1,8 +1,6 @@
 package com.pluralsight;
 
-import java.util.Scanner;
-
-public class ErrorExample {
+public class ExceptionExample {
 
     public static void main(String[] args) {
 
